@@ -49,3 +49,4 @@ docker exec -d -w /code modelv1 uvicorn main:app --proxy-headers --host 0.0.0.0 
 2. Install Jenkins
 3. Install Docker Service
 4. Validation of Installation 
+
