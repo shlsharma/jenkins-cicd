@@ -7,9 +7,9 @@ from fastapi.middleware.cors import CORSMiddleware # if frontend is written in d
 from prediction_model.predict import generate_predictions
 
 app = FastAPI(
-    title='Loan Prediction App using API - CI CD Jenkins',
+    title='Loan Prediction App using API - CI CD Jenkins v2',
     description="A Simple CI CD Demo",
-    Version='1.0'
+    Version='2.0'
 )
 
 origins=[
